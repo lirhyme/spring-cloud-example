@@ -1,0 +1,12 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/lirhyme/springcloud-config.git
+          username: lirhyme
+          password: 2557947043@gitee

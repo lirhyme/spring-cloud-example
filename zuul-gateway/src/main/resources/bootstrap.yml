@@ -1,0 +1,10 @@
+server:
+  port: 8686
+spring:
+  application:
+    name: zuul-gateway
+  cloud:
+    config:
+      uri: ${SPRING_CLOUD_CONFIG_URI:http://locahost:8888}
+
+
